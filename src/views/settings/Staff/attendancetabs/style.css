@@ -1,0 +1,16 @@
+.ui.menu>.item {
+     border-radius: 0.28571429rem 0 0 0.28571429rem;
+ padding-left: 12.4em !important;
+ padding-right: 12.4em !important;
+}
+    .ui.menu .active.item {
+     background: rgba(0,0,0,.05);
+ color: rgba(0,0,0,.95);
+     font-weight: 400;
+     box-shadow: none;
+     padding-left: 12.4em !important;
+ padding-right: 12.4em !important;
+    }
+    
+    
+    

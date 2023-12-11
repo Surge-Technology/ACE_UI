@@ -1,0 +1,88 @@
+:root {
+    --main-bg-color: #f4f4f4;
+    --main-nav-color: #eee;
+    --primary-color: #65BDF7;
+    --primary-color-alt: #58BAEF;
+    --remove-color: #EF3336;
+    --radius: 8px;
+    --font: "Figtree", sans-serif;
+    font-size: 14px;
+}
+
+.dashboard-header {
+    background-color: #eee;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+.dashboard-header .logo {
+    height: 54px;
+    width: 54px;
+    margin-right: 1rem;
+    margin-top: 2px;
+    margin-left: 6px;
+}
+.dashboard-header .logo img {
+    width: 100%;
+}
+.dashboard-header h1 {
+    font-weight: 800;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+.dashboard-nav {
+    background-color: var(--main-nav-color);
+    width: 64px;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.dashboard-nav ul {
+    padding: 0;
+}
+.dashboard-nav li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.dashboard-nav li a {
+    border: 1px solid #fff;
+    background-color: #eee;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.dashboard-nav li a:hover, .dashboard-nav li a:focus, .dashboard-nav li a.active {
+    background-color: var(--primary-color);
+}
+.dashboard-nav li a .icon {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #000;
+    opacity: 0.6;
+    font-size: 1.7rem;
+}
+.dashboard-nav li a:hover .icon, .dashboard-nav li a:focus .icon, .dashboard-nav li a.active .icon {
+    opacity: 1;
+}
+.dashboard-nav li a .icon.icon-gauge {
+    top: 2px;
+}

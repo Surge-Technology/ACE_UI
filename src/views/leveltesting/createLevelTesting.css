@@ -1,0 +1,61 @@
+ 
+   * {
+    box-sizing: border-box;
+  }
+  .AppTest {
+    font-family: "Hachi Maru Pop", cursive;
+    /* display: flex; */
+    padding: 15px;
+  }
+  .AppTest .Meta {
+    flex-grow: 1;
+    padding-right: 15px;
+  }
+  .AppTest .Meta input {
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  .AppTest .Meta button {
+    padding: 10px 15px;
+    border: 2px solid #87ceeb;
+    background-color: #33f3fb;
+    font-family: inherit;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   .AppTest #certificateWrapperTest {
+  
+    position: relative;
+  }
+  .AppTest #certificateWrapperTest img {
+    display: block;
+    width:100%;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .AppTest #certificateWrapperTest .nameTest {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 7%;
+    top: 42%;
+    font-size: 40px;
+  }
+  .AppTest #certificateWrapperTest .bodyCopyTest {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 7%;
+    top: 54%;
+    /* inline-size: 310px; */
+    overflow-wrap: break-word;
+     font-size: 18px; 
+    font-weight: 400;
+  }
+  

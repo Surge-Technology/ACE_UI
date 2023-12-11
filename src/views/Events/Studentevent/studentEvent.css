@@ -1,0 +1,22 @@
+/* tableborder */
+.rowborder1{
+    border: 2px solid #65bdf7;
+    border-radius: 10px;
+    padding: 4px 0px;
+    height: 400px;
+}
+/* table sticky */
+.my-custom-class1 {
+     max-height: 300px;
+  }
+
+  /* .react-bs-table-tool-bar {
+    position: sticky ;
+    top: 1px ;
+  } */
+
+  /* .react-bs-container-header {
+    position: sticky !important;
+    top: 1px !important;
+  } */
+   

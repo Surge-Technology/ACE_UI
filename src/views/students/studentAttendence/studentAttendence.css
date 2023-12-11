@@ -1,0 +1,31 @@
+.rowborder{
+  border: 2px solid #65bdf7;
+  border-radius: 10px;
+  padding: 4px 0px;
+  height: 362px;
+}
+.studenttablescro {
+   max-height: 250px;
+}
+.rowborder1{
+  border: 2px solid #65bdf7;
+  border-radius: 10px;
+  padding: 4px 0px;
+  height: 300px;
+}
+.my-custom-class1 {
+  max-height: 196px;
+}
+  .attendencecard{
+    background-color: white !important;
+  }
+  .markasbutton{
+    margin-top: 30px;
+  }
+  .marginStyleForTablee{
+    margin-bottom: 0px;
+  } 
+.studentsattendancecolor {
+ background-color: #e9ecef !important;
+ cursor: default;
+}

@@ -1,0 +1,11 @@
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color:  #65bdf7;
+    box-shadow: inset 0 calc(-1 * var(--cui-accordion-border-width)) 0 var(--cui-accordion-border-color);
+}
+.badgesize{
+    margin: 4px;
+    padding: 6px 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
